@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+:root {
+  --primary-color: #1a2d59;
+  --secondary-color: #d31245;
+}
+
+body {
+    width: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.main-content-container {
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
+.sidebar{
+    width: 230px !important;
+    height: 100vh;
+    background-color: #1a2d59 !important;
+    
+}
+
+.content{
+    padding-left: 230px !important;
+}
+.sidebar *{
+    color: white;
+}
+
+.avatar{
+    position: relative;
+}
+
+.user_avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+.name-and-role{
+    font-size: 12px;
+    font-weight: 600;
+}
+.content{
+    width: 100% !important;
+}
+
+.sidebar-topic{
+
+}
+
+
+.sidebar-topic a{
+    text-decoration: none;
+}
+.sidebar-topic  a:not(.active-tag){
+    opacity: 0.6;
+
+}
+
+.sidebar-topic a:hover{
+    text-decoration: underline;
+    opacity: 1;
+    color: white;
+}
+
+.active-tag{
+    opacity: 1;
+}
+
+.tag-department{
+    opacity: 0.4;
+    font-size: 12px;
+}
+
+
+.content>p{
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    
+}
